@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    
+    background-image: linear-gradient(to top,#f32610 0%,#f86604 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height: 85vh;
+    width: 80vw;
+    background-color: black;
+    border-radius: 10px;
+
+
+}
+.ball{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: pink;
+    position: fixed;
+    top: 45vh;
+    left:50vw;
+
+
+}
+.paddle{
+    height: 120px;
+    width:15px;
+    background-color: pink;
+    position: fixed;
+    border-radius: 2px;
+    position: fixed;
+
+}
+.left{
+    top:40vh;
+    left: 12vw;
+}
+.right{
+    top:40vh;
+    right:12vw;
+}
+.fa-circle{
+    color:yellow;
+    
+}
+.scoreboard{
+    height:60px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex:1 1 1;
+
+}
+.separator{
+    width: 4px;
+    height: 70%;
+    background-color: blueviolet;
+}
+
